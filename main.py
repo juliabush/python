@@ -10,8 +10,8 @@ movies = [
         ["Michael Palin", "John Cleese", "Terry  Gilliam", "Eric Idle", "Terry Jones"],
     ],
 ]
+level = 5
 
-
-nester.print_lol(movies)
+nester.print_lol(movies, level)
 
 # Third party repository for imports and modules is PyPi
