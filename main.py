@@ -1,45 +1,17 @@
-import sys, random
+import nester
 
-print("Welcoe to the Psych `SideKick Name Picker.\n")
-print("A name just like Sean would pick for Gus:\n\n")
+movies = [
+    "The Holy Grail",
+    1975,
+    "Terry Jones & tery Gilliam",
+    91,
+    [
+        "Graham Chapman",
+        ["Michael Palin", "John Cleese", "Terry  Gilliam", "Eric Idle", "Terry Jones"],
+    ],
+]
 
-first = (
-    "Zaphod",
-    "Moonbeam",
-    "Fizban",
-    "Glimmer",
-    "Tiberius",
-    "Banana",
-    "Clementine",
-    "Orville",
-    "Pippin",
-    "Nimbus"
-)
 
-last = (
-    "Beeblebrox",
-    "Twistypop",
-    "Snickerdoodle",
-    "Funkle",
-    "Quackenbush",
-    "Wobbleton",
-    "Sprocket",
-    "Bumbleshoot",
-    "Flapjack",
-    "Cracklehorn"
-)
+nester.print_lol(movies)
 
-while True:
-    firstName = random.choice(first)
-
-    lastName = random.choice(last)
-
-    print("\n\n")
-    print("{}{}".format(firstName, lastName), file=sys.stderr)
-    print("\n\n")
-
-    try_again = input("\n\nTry Again? (Press Enter else n to quit)\n")
-    if try_again.lower() == "n":
-        break
-
-input("\nPress Enter to exit.")
+# Third party repository for imports and modules is PyPi

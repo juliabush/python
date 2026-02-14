@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: nesterjester
+Version: 1.0.0
+Summary: A simple recursive function for nested lists
+Home-page: https://juliabush.dev
+Author: juliapython
+Author-email: j.elizabethbush@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: summary
